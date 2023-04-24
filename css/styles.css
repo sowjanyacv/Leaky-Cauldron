@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+SC&display=swap");
+
+body {
+  font-family: "Almendra", serif;
+  color: #3b333d;
+}
+
+/* Title */
+
+h1 {
+  font-family: "Almendra SC", serif;
+  font-size: 3.5rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Nav Bar */
+.navbar {
+  width: 100vw;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Services  */
+
+#services {
+  padding: 7% 15%;
+}
+
+.service > h3 {
+  font-family: "Almendra SC", serif;
+}
+
+.service > p {
+  color: #8f8f8f;
+}
+
+.icons {
+  color: #8f8f8f;
+}
+
+.icons:hover {
+  color: #332d2d;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #8f8f8f;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.carousel-item > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #8f8f8f;
+  padding-bottom: 3%;
+}
+
+#press > img {
+  height: 180px;
+  margin: 40px 40px 50px;
+}
+
+/* Menu */
+
+#menu {
+  padding: 7% 15%;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.card-container {
+  margin-top: 7%;
+}
+
+.card > img {
+  height: 18rem;
+  object-fit: cover;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: 2rem;
+}
+
+.card-body {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+/* Reservations */
+
+#reservations {
+  background-color: #8f8f8f;
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15% 4%;
+}
+
+.icon {
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+}
+
+#footer > p {
+  padding-top: 3%;
+}

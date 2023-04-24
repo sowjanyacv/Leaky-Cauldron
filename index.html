@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Leaky Cauldron</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/74231a725f.js" crossorigin="anonymous"></script>
+    <style>
+      #intro {
+        background-image: url("images/About.jpg");
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="title">
+
+      <!-- Nav Bar -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed px-3"
+      >
+        <a class="navbar-brand ps-3" href="#">Leaky Cauldron</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservations">Reservation</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div id="intro" class="bg-image text-center container-fluid text-dark ">
+        <div class="col-lg-6">
+          <h1>Welcome to the Leaky Cauldron,</br>Your gateway to everything magic!</h1>
+          <a href="#reservations" class="btn btn-dark btn-lg mt-4" tabindex="-1" role="button" aria-disabled="true">
+            Book a Reservation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+
+    <section id="services" class="row text-center">
+      <div class="service col-lg-4"> 
+        <i class="fa-solid fa-utensils fa-2x icons"></i>
+        <h3>Dining</h3>
+        <p>Enjoy the fine dining experience with in-house specials. </p>
+      </div>
+    
+      <div class="col-lg-4 service">
+        <i class="fa-solid fa-hotel fa-2x icons"></i>
+        <h3>Stay</h3>
+        <p>Need a luxurious place to rest for the night? We have got you covered. </p>
+      </div>
+      
+      <div class="col-lg-4 service">
+        <i class="fa-solid fa-martini-glass-citrus fa-2x icons"></i>
+        <h3>Bar</h3>
+        <p>Wizard-flix and drink? Come here and enjoy that and more. </p>
+      </div>     
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="testimonialCarousel" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="3500"  data-bs-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              My first foray into the magical world. It has delicious food and is the best place to crash for a night.
+            </h2>
+              <img src="images/Harry.png" alt="Harry" />
+              <em>Harry Potter, Godric's Hollow</em>
+            </div>
+          <div class="carousel-item">
+            <h2>
+              A good place to conduct ministry business. Quite and discreet when needed to be. Good food is just a bonus.
+            </h2>
+            <img src="images/Fudge.jpg" alt="Fudge" />
+            <em>Cornelius Fudge, London</em>
+          </div>
+          <div class="carousel-item">
+           <h2>
+              The Leaky Cauldron. It's a famous place. A good place to conduct secret trade. I shouldn't have said that.
+            </h2>
+            <img src="images/Hagrid.png" alt="Hagrid" />
+            <em>Rubeus Hagrid, Hogwarts</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+
+    <!-- Press -->
+
+    <section id="press" class="text-center">
+      <img src="images/DailyProphet.png" alt="daily-prophet-logo" />
+      <img src="images/WWN.png" alt="wwn-logo" />
+      <img src="images/Quibbler.png" alt="quibbler-logo" />
+    </section>
+
+    <!-- Menu -->
+
+    <section class="text-center" id="menu">
+      <h2>Menu</h2>
+      <h4>Taste heaven on your taste-buds.</h4>
+      
+      <div class="card-container row"> 
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+          <img src="images\house-house-soup.jpg" alt="House House Soup">
+            <h3 class="card-title">House House Soup</h3>
+            <h4 class="card-body">5 Sickles</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+          <img src="images\house-leaky-soup.jpg" alt="House Leaky Soup">
+            <h3 class="card-title">House Leaky Soup</h3>
+            <h4 class="card-body">4 Sickles</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+          <img src="images\soup-soup-soup.jpg" alt="Soup Soup Soup">
+            <h3 class="card-title">Soup Soup Soup</h3>
+            <h4 class="card-body">5 Sickles</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+          <img src="images\pea-soup.jpg" alt="Pea Soup">
+            <h3 class="card-title">Pea Soup</h3>
+            <h4 class="card-body">5 Sickles</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+            <img src="images\pickled-eels.jpg" alt="Pickled Eels">
+            <h3 class="card-title">Pickled Eels</h3>
+            <h4 class="card-body">1 Galleon</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+            <img src="images\roast-hog.jpg" alt="Roast Hog">
+            <h3 class="card-title">Roast Hog</h3>
+            <h4 class="card-body">1 Galleon</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+            <img src="images\steak-and-kidney-pie.jpg" alt="Steak and Kidney Pie">
+            <h3 class="card-title">Steak and Kidney Pie</h3>
+            <h4 class="card-body">2 Galleons</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="card">
+            <img src="images\game-pie.jpg" alt="Game Pie">
+            <h3 class="card-title">Game Pie</h3>
+            <h4 class="card-body">2 Galleons</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images\raw-liver.jpg" alt="Raw Liver">
+          <h3 class="card-title">Raw Liver</h3>
+          <h4 class="card-body">1 Galleon</h4>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <!-- Reservations -->
+
+    <section id="reservations">
+      <form action="submit">
+        <h4>Enter booking information:</h4>
+        <div class="row">
+          <div class="col-md-6 form-floating mb-3">
+            <select class="form-select" id="floatingDate" aria-label="Reservation date">
+              <option value="1">Mon, 1st April</option>
+              <option value="2">Tue, 2nd April</option>
+              <option value="3">Wed, 3rd April</option>
+              <option value="4">Thu, 4th April</option>
+              <option value="5">Fri, 5th April</option>
+              <option value="6">Sat, 6th April</option>
+              <option value="7">Sun, 7th April</option>
+            </select>
+            <label class="ps-4" for="floatingDate">Select the date</label>
+          </div>
+          <div class="col-md-6 form-floating mb-3">
+            <select class="form-select" id="floatingGuest" aria-label="Number of guests">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <label class="ps-4" for="floatingGuest">Number of guests</label>
+          </div>
+        </div>
+        <h4 class="mt-5">Enter guest details:</h4>
+        <div class="row">
+          <div class="col-md-6 form-floating mb-3">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            <label class="ps-4" for="firstName">First Name</label>
+          </div>
+          <div class="col-md-6 form-floating mb-3">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            <label class="ps-4" for="lastName">Last Name</label>
+          </div>
+        </div> 
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="emailId" placeholder="Email address">
+          <label for="emailId">Email address</label>
+        </div>    
+        <div class="input-group mb-3">
+          <span class="input-group-text">+91</span>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="phoneNo" placeholder="Phone Number">
+            <label for="phoneNo">Phone Number</label>
+          </div>
+        </div>
+        <div class="d-grid gap-2">
+          <button type="button" class="btn btn-dark btn-lg mt-4">Book a Table</button>
+        </div>    
+      </form>
+      
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="text-center">
+      <div class="icon">
+        <a
+          href="https://github.com/sowjanyacv"
+          target="_blank"
+          rel="noreferrer"
+        > 
+          <i class="fa-brands fa-github icons"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sowjanya-c-v/"
+          target="_blank"
+          rel="noreferrer"
+        > 
+          <i class="fa-brands fa-linkedin icons"></i>
+        </a>
+        <a
+          href="https://welcometochaoscentral.wordpress.com/"
+          target="_blank"
+          rel="noreferrer"
+        > 
+          <i class="fa-brands fa-wordpress icons"></i>
+        </a>
+        <a
+           href="mailto:priya99vish@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        > 
+          <i class="fa-solid fa-envelope icons"></i>
+        </a>
+      </div>
+      <p>© 2022, Sowjanya Chandra Vijaya</p>
+    </footer>
+  </body>
+</html>
