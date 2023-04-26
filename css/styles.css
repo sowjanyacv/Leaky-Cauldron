@@ -23,6 +23,7 @@ h1 {
 /* Nav Bar */
 .navbar {
   width: 100vw;
+  z-index: 10;
 }
 
 .navbar-brand {
